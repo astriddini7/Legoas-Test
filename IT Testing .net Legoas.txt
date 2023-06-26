@@ -1,0 +1,39 @@
+Test Assignment :
+Buat aplikasi web ASP.NET MVC dengan menggunakan Entity Framework dan LINQ dan berikut ini kebutuhannya:
+1.  Layar : Pendaftaran Akun
+	Fitur : - Pendaftaran akun dan data pengguna
+			- Menentukan peran dari akun bersangkutan
+			- Menentukan layar kepada peran yang dimiliki oleh pengguna bersangkutan
+			- Mengatur hak akses layar (create, update, delete, read) pada layar yang telah dialokasikan kepada peran pengguna
+			- Menentukan kantor ke data pengguna terkait
+	Alur Proses : 
+	1. Ketika melakukan pendaftaran akun baru secara default sudah ada 1 peran yang terpilih dan peran pengguna boleh lebih dari 1, daftar peran sudah tersedia beberapa pilihan berdasarkan master data peran (cth data peran : Admin, Finance Staff, Operation Admin)
+	2. Ketika sudah menentukan peran ke akun terkait terdapat pilihan pendaftaran layar dan daftar layar yang tersedia berdasarkan data pada master layar (cth data layar : Daftar Pengguna, Daftar Peran, Daftar Kantor)
+	3. Setelah melakukan poin 1 terdapat juga pilihan (tidak wajib melengkapin data pengguna) untuk melakukan pendaftaran data pengguna / melengkapain data pengguna secara default sudah ada 1 kantor yang terpilih dan kantor pengguna boleh lebih dari 1, daftar kantor sudah tersedia beberapa pilihan berdasarkan master data kantor (cth data kantor : HO,CABANG 1, CABANG 2, CABANG 3)
+
+2.  Layar : Pengaturan Akun
+	Fitur : - Perubahan data akun dan data pengguna
+			- Mengatur peran, hak akses layar, dan kantor
+			- Menghapus akun			
+	Alur Proses : 
+	1. Mengubah password atau melengkapin data pengguna dan mengatur kantor atau mengatur hak akses layar atau menghapus akun
+	
+3.  Layar : Daftar Akun
+	Fitur : - Melihat daftar akun dengan informasi Nama Akun, Tgl Daftar Akun, Nama Pengguna, Peran, Kantor
+			- Pencarian data Nama Akun, Tgl Daftar Akun, Nama Pengguna, Peran, Kantor
+			- Tombol atau link untuk pindah ke layar Pendaftaran Akun
+			- Tombol atau link untuk pindah ke layar Pengaturan Akun terkait akun yang dipilih
+	Alur Proses : 
+		1. Mencari data akun dengan input nilai pencarian pada kolom yang tersedia (boleh isi lebih dari satu kolom pencarian untuk mendapatkan data akun yang tepat/diinginkan)
+
+Catatan UI : terserah kepada kandidat tidak perlu bagus dan boleh gunakan default dari template asp.net mvc 
+
+Informasi pada tabel :
+1. Akun (nama akun, password, tanggal daftar)
+2. Pengguna (nama pengguna, alamat ,kode pos, provinsi , kantor)
+3. Kantor (kode cabang, nama cabang)
+4. Peran (kode peran, nama Peran)
+5. Layar (kode layarm nama Layar)
+		
+		
+		
