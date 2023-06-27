@@ -2,5 +2,8 @@
 {
 	public class ApplicationRoleGetAllResponse
 	{
-	}
+		public IList<ApplicationRoleGetAllDto> ApplicationRoles { get; set; } = default!;
+    }
+	
+	public record ApplicationRoleGetAllDto(string ID, string Name);
 }
